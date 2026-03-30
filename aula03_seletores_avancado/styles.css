@@ -1,0 +1,22 @@
+/*CSS Externo*/
+
+body
+{
+ font-family: Arial;
+ background-color: #30302e;
+ color: #fff;
+ padding:20px
+ line-height: 1.6;
+}
+
+#texto{
+    color:aqua;
+}
+
+.destaque{
+    background-color :chartreuse;
+    color: black;
+    padding: 10px;
+    margin-bottom:10px;
+    border-left
+}
