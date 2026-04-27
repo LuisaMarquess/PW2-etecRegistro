@@ -1,0 +1,56 @@
+/*Seletor de CLASSE*/
+.caixa {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #ccc;
+}
+
+.static{
+    position: static;
+    background-color: #ffb483;
+}
+
+.relative{
+    position: relative;
+    background-color: #d8670a;
+    top: 50px;
+    left: 200px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: #f59b51;
+    margin: 0;
+    top:150px ;
+    left: 50px;
+    z-index: 3;
+}
+
+.frente{
+    z-index: 2;
+    left: 60px;
+    top: 170px;
+    background-color: #ff6d33;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(255, 92, 32);
+    z-index: 1000;
+}
+
+.espaco{
+    height: 900px;
+    background-color: #ccc;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+}
